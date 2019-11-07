@@ -15,6 +15,9 @@ $ go mod init
 $ go mod vendor
 $ go run main.go
 ```
+Open Browser go to 
+http://localhost:8012/user
+
 
 4. Test script
 ```
