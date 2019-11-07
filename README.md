@@ -10,7 +10,7 @@ For more instructions on how to install Golang, look [here](https://golang.org/d
 3. Run script
 ```
 $ git clone https://github.com/itti9gat/basic_gin.git
-$ cd golang_basic_login
+$ cd basic_gin
 $ go mod init
 $ go mod vendor
 $ go run main.go
