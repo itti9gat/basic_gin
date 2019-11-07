@@ -1,0 +1,15 @@
+CREATE TABLE `users` (
+  `id` int(3) NOT NULL,
+  `username` varchar(20) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `pwd` varchar(20) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `name` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `status` varchar(10) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
+
+INSERT INTO `users` (`id`, `username`, `pwd`, `name`, `status`) VALUES
+(1, 'testuser', 'test1234', 'test', 'ADMIN'),
+(2, 'demo', 'demo1234', 'demo_name', 'USER');
+
+ALTER TABLE `users` ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `users` MODIFY `id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
