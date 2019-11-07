@@ -5,7 +5,7 @@
 1. Make sure you have Golang installed on your local machine. 
 For more instructions on how to install Golang, look [here](https://golang.org/doc/install).
 
-2. Install MySQL and insert data from /mysql/db.txt
+2. Install MySQL and insert data from /init/user.txt
 
 3. Run script
 ```
