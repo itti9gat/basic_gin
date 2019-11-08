@@ -1,5 +1,5 @@
 # Basic GIN
-
+[![CircleCI](https://circleci.com/gh/itti9gat/basic_gin.svg?style=svg)](https://circleci.com/gh/itti9gat/basic_gin)
 
 ### Usage
 1. Make sure you have Golang installed on your local machine. 
