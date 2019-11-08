@@ -16,7 +16,8 @@ jobs:
             - go-mod-v4-{{ checksum "go.sum" }}
 
       - run: ENVIRONMENT=test go test ./...
-      - run: go build main.go > ${TEST_RESULTS}/main
+      - run: go build main.go 
+      - run: mv main $TEST_RESULTS
 
       - save_cache:
           key: go-mod-v4-{{ checksum "go.sum" }}
