@@ -26,7 +26,7 @@ jobs:
 
       - store_artifacts: 
           path: /tmp/test-results
-          destination: raw-test-output
+          destination: raw-output
 
       - store_test_results: 
           path: /tmp/test-results
