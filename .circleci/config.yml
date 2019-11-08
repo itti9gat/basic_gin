@@ -15,7 +15,7 @@ jobs:
           keys:
             - go-mod-v4-{{ checksum "go.sum" }}
 
-      - run: gotestsum --junitfile ${TEST_RESULTS}/gotestsum-report.xml
+      - run: ENVIRONMENT=test go test ./... -coverprofile=${TEST_RESULTS}/cover.out
 
       - save_cache:
           key: go-mod-v4-{{ checksum "go.sum" }}
